@@ -79,12 +79,12 @@ git clone https://github.com/JiaWenHa/Li-Calib
 # ndt_omp
 # 仍然是在src文件夹的终端中执行下列指令，下载ndt_omp
 wstool init
-wstool merge lidar_IMU_calib/depend_pack.rosinstall
+wstool merge Li-Calib/depend_pack.rosinstall
 wstool update
 
 # Pangolin
 # 安装Pangolin
-cd lidar_imu_calib
+cd Li-Calib
 ./build_submodules.sh
 
 ## build
@@ -101,7 +101,7 @@ Currently the LI-Calib toolkit only support `VLP-16` but it is easy to expanded 
 Run the calibration:
 
 ```shell
-./src/lidar_IMU_calib/calib.sh
+./src/Li-Calib/calib.sh
 ```
 
 The options in `calib.sh` the have the following meaning:

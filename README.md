@@ -74,7 +74,7 @@ catkin_init_workspace
 
 # Clone the source code for the project and build it. 
 # 在github中下载源码
-git clone https://github.com/APRIL-ZJU/lidar_IMU_calib
+git clone https://github.com/JiaWenHa/Li-Calib
 
 # ndt_omp
 # 仍然是在src文件夹的终端中执行下列指令，下载ndt_omp

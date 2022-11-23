@@ -1,4 +1,4 @@
-# Install script for directory: /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/HelloPangolinOffscreen
+# Install script for directory: /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/HelloPangolinOffscreen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

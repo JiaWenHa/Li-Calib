@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Wextra  -O3 -DNDEBUG   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/include -I/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/include -isystem /usr/include/eigen3 
+CXX_INCLUDES = -I/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/include -I/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/include -isystem /usr/include/eigen3 
 

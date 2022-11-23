@@ -11,4 +11,4 @@ endif()
 
 SET( Pangolin_LIBRARIES    pangolin )
 SET( Pangolin_LIBRARY      pangolin )
-SET( Pangolin_CMAKEMODULES /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/src/../CMakeModules )
+SET( Pangolin_CMAKEMODULES /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/src/../CMakeModules )

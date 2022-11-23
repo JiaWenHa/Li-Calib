@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin
+CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin
+CMAKE_BINARY_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin
 
 # Include any dependencies generated for this target.
 include tools/VideoViewer/CMakeFiles/VideoViewer.dir/depend.make
@@ -58,17 +58,17 @@ include tools/VideoViewer/CMakeFiles/VideoViewer.dir/progress.make
 include tools/VideoViewer/CMakeFiles/VideoViewer.dir/flags.make
 
 tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.o: tools/VideoViewer/CMakeFiles/VideoViewer.dir/flags.make
-tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.o: /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoViewer/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.o"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VideoViewer.dir/main.cpp.o -c /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoViewer/main.cpp
+tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.o: /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoViewer/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.o"
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VideoViewer.dir/main.cpp.o -c /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoViewer/main.cpp
 
 tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/VideoViewer.dir/main.cpp.i"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoViewer/main.cpp > CMakeFiles/VideoViewer.dir/main.cpp.i
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoViewer/main.cpp > CMakeFiles/VideoViewer.dir/main.cpp.i
 
 tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VideoViewer.dir/main.cpp.s"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoViewer/main.cpp -o CMakeFiles/VideoViewer.dir/main.cpp.s
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoViewer/main.cpp -o CMakeFiles/VideoViewer.dir/main.cpp.s
 
 # Object files for target VideoViewer
 VideoViewer_OBJECTS = \
@@ -99,8 +99,8 @@ tools/VideoViewer/VideoViewer: /usr/lib/x86_64-linux-gnu/libICE.so
 tools/VideoViewer/VideoViewer: /usr/lib/x86_64-linux-gnu/libX11.so
 tools/VideoViewer/VideoViewer: /usr/lib/x86_64-linux-gnu/libXext.so
 tools/VideoViewer/VideoViewer: tools/VideoViewer/CMakeFiles/VideoViewer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable VideoViewer"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VideoViewer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable VideoViewer"
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VideoViewer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/VideoViewer/CMakeFiles/VideoViewer.dir/build: tools/VideoViewer/VideoViewer
@@ -108,10 +108,10 @@ tools/VideoViewer/CMakeFiles/VideoViewer.dir/build: tools/VideoViewer/VideoViewe
 .PHONY : tools/VideoViewer/CMakeFiles/VideoViewer.dir/build
 
 tools/VideoViewer/CMakeFiles/VideoViewer.dir/clean:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && $(CMAKE_COMMAND) -P CMakeFiles/VideoViewer.dir/cmake_clean.cmake
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && $(CMAKE_COMMAND) -P CMakeFiles/VideoViewer.dir/cmake_clean.cmake
 .PHONY : tools/VideoViewer/CMakeFiles/VideoViewer.dir/clean
 
 tools/VideoViewer/CMakeFiles/VideoViewer.dir/depend:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoViewer /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer/CMakeFiles/VideoViewer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoViewer /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer/CMakeFiles/VideoViewer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/VideoViewer/CMakeFiles/VideoViewer.dir/depend
 

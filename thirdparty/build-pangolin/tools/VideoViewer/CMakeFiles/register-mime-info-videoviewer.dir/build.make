@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin
+CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin
+CMAKE_BINARY_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin
 
 # Utility rule file for register-mime-info-videoviewer.
 
@@ -54,15 +54,15 @@ CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/buil
 include tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/progress.make
 
 tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer: tools/VideoViewer/VideoViewer
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && mkdir -p /home/ros/.local/share/mime/packages/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && mkdir -p /home/ros/.local/share/applications/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && mkdir -p /home/ros/.local/share/icons/hicolor/scalable/mimetypes/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && cp /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoViewer/application-x-pango.xml /home/ros/.local/share/mime/packages/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && cp /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoViewer/application-x-pango.svg /home/ros/.local/share/icons/hicolor/scalable/mimetypes/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && cp /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer/pango.desktop /home/ros/.local/share/applications/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && gtk-update-icon-cache /home/ros/.local/share/icons/hicolor -f -t
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && update-mime-database /home/ros/.local/share/mime
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && update-desktop-database /home/ros/.local/share/applications
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && mkdir -p /home/ros/.local/share/mime/packages/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && mkdir -p /home/ros/.local/share/applications/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && mkdir -p /home/ros/.local/share/icons/hicolor/scalable/mimetypes/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && cp /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoViewer/application-x-pango.xml /home/ros/.local/share/mime/packages/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && cp /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoViewer/application-x-pango.svg /home/ros/.local/share/icons/hicolor/scalable/mimetypes/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && cp /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer/pango.desktop /home/ros/.local/share/applications/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && gtk-update-icon-cache /home/ros/.local/share/icons/hicolor -f -t
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && update-mime-database /home/ros/.local/share/mime
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && update-desktop-database /home/ros/.local/share/applications
 
 register-mime-info-videoviewer: tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer
 register-mime-info-videoviewer: tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/build.make
@@ -75,10 +75,10 @@ tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/build: register-
 .PHONY : tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/build
 
 tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/clean:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer && $(CMAKE_COMMAND) -P CMakeFiles/register-mime-info-videoviewer.dir/cmake_clean.cmake
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer && $(CMAKE_COMMAND) -P CMakeFiles/register-mime-info-videoviewer.dir/cmake_clean.cmake
 .PHONY : tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/clean
 
 tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/depend:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoViewer /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoViewer /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/depend
 

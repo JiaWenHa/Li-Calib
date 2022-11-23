@@ -2,11 +2,11 @@
 # File that provides "make uninstall" target
 #  We use the file 'install_manifest.txt'
 # -----------------------------------------------
-IF(NOT EXISTS "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/install_manifest.txt")
+IF(NOT EXISTS "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/install_manifest.txt")
 
-FILE(READ "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/install_manifest.txt" files)
+FILE(READ "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

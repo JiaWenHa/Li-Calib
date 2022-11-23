@@ -1,4 +1,4 @@
-# Install script for directory: /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples
+# Install script for directory: /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,17 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/HelloPangolin/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/HelloPangolinOffscreen/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/HelloPangolinThreads/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleMultiDisplay/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleDisplayImage/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleScene/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimplePlot/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleDisplay/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleVideo/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleRecord/cmake_install.cmake")
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SharedMemoryCamera/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/HelloPangolin/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/HelloPangolinOffscreen/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/HelloPangolinThreads/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleMultiDisplay/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleDisplayImage/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleScene/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimplePlot/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleDisplay/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleVideo/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleRecord/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SharedMemoryCamera/cmake_install.cmake")
 
 endif()
 

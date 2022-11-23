@@ -1,4 +1,4 @@
-# Install script for directory: /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/Plotter
+# Install script for directory: /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/Plotter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,12 +52,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter/Plotter")
+file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter/Plotter")
   if(EXISTS "$ENV{DESTDIR}/usr/local/bin/Plotter" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/Plotter")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/local/bin/Plotter"
-         OLD_RPATH "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src:"
+         OLD_RPATH "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/bin/Plotter")

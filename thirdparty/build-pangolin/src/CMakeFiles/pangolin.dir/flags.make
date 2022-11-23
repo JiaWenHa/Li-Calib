@@ -6,7 +6,7 @@ CXX_FLAGS = -Wall -Wno-error=deprecated-declarations -Wall -Wextra  -O3 -DNDEBUG
 
 CXX_DEFINES = -Dlinux=1 -Dpangolin_EXPORTS
 
-CXX_INCLUDES = -I/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/include -I/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/include -isystem /usr/include/eigen3 -isystem /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/external/pybind11/include -isystem /usr/include/python3.8 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /usr/include/OpenEXR 
+CXX_INCLUDES = -I/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/include -I/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/include -isystem /usr/include/eigen3 -isystem /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/external/pybind11/include -isystem /usr/include/python3.8 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /usr/include/OpenEXR 
 
 # Custom flags: src/CMakeFiles/pangolin.dir/video/drivers/ffmpeg.cpp.o_FLAGS = -Wno-deprecated-declarations
 

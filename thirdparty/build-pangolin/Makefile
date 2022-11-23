@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin
+CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin
+CMAKE_BINARY_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -148,9 +148,9 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

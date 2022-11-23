@@ -1,4 +1,4 @@
-# Install script for directory: /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/test
+# Install script for directory: /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/test/log/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/test/log/cmake_install.cmake")
 
 endif()
 

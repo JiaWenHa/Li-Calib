@@ -166,6 +166,9 @@ public:
 
     std::cout << lidar_topic << ": " << data_->scan_data_.size() << std::endl;
     std::cout << imu_topic << ": " << data_->imu_data_.size() << std::endl;
+
+    // 此处进行了修改
+    return true;
   }
 
 

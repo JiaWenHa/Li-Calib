@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Wno-error=deprecated-declarations -Wall -Wextra  -O3 -DNDEBUG
 
 CXX_DEFINES = -Dlinux=1 -Dpypangolin_EXPORTS
 
-CXX_INCLUDES = -I/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/external/pybind11/include -I/usr/include/python3.8 -I/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/include -I/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/include -isystem /usr/include/eigen3 
+CXX_INCLUDES = -I/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/external/pybind11/include -I/usr/include/python3.8 -I/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/include -I/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/include -isystem /usr/include/eigen3 
 

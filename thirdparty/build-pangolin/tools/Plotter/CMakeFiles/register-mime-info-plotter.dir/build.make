@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin
+CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin
+CMAKE_BINARY_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin
 
 # Utility rule file for register-mime-info-plotter.
 
@@ -54,15 +54,15 @@ CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/buil
 include tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/progress.make
 
 tools/Plotter/CMakeFiles/register-mime-info-plotter: tools/Plotter/Plotter
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && mkdir -p /home/ros/.local/share/mime/packages/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && mkdir -p /home/ros/.local/share/applications/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && mkdir -p /home/ros/.local/share/icons/hicolor/scalable/mimetypes/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && cp /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/Plotter/application-x-pangoplot.xml /home/ros/.local/share/mime/packages/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && cp /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/Plotter/../VideoViewer/application-x-pango.svg /home/ros/.local/share/icons/hicolor/scalable/mimetypes/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && cp /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter/pangoplot.desktop /home/ros/.local/share/applications/
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && gtk-update-icon-cache /home/ros/.local/share/icons/hicolor -f -t
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && update-mime-database /home/ros/.local/share/mime
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && update-desktop-database /home/ros/.local/share/applications
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && mkdir -p /home/ros/.local/share/mime/packages/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && mkdir -p /home/ros/.local/share/applications/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && mkdir -p /home/ros/.local/share/icons/hicolor/scalable/mimetypes/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && cp /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/Plotter/application-x-pangoplot.xml /home/ros/.local/share/mime/packages/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && cp /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/Plotter/../VideoViewer/application-x-pango.svg /home/ros/.local/share/icons/hicolor/scalable/mimetypes/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && cp /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter/pangoplot.desktop /home/ros/.local/share/applications/
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && gtk-update-icon-cache /home/ros/.local/share/icons/hicolor -f -t
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && update-mime-database /home/ros/.local/share/mime
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && update-desktop-database /home/ros/.local/share/applications
 
 register-mime-info-plotter: tools/Plotter/CMakeFiles/register-mime-info-plotter
 register-mime-info-plotter: tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/build.make
@@ -75,10 +75,10 @@ tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/build: register-mime-inf
 .PHONY : tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/build
 
 tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/clean:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter && $(CMAKE_COMMAND) -P CMakeFiles/register-mime-info-plotter.dir/cmake_clean.cmake
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter && $(CMAKE_COMMAND) -P CMakeFiles/register-mime-info-plotter.dir/cmake_clean.cmake
 .PHONY : tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/clean
 
 tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/depend:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/Plotter /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/Plotter /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/Plotter/CMakeFiles/register-mime-info-plotter.dir/depend
 

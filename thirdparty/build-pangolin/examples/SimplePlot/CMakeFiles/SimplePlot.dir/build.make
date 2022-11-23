@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin
+CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin
+CMAKE_BINARY_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin
 
 # Include any dependencies generated for this target.
 include examples/SimplePlot/CMakeFiles/SimplePlot.dir/depend.make
@@ -58,17 +58,17 @@ include examples/SimplePlot/CMakeFiles/SimplePlot.dir/progress.make
 include examples/SimplePlot/CMakeFiles/SimplePlot.dir/flags.make
 
 examples/SimplePlot/CMakeFiles/SimplePlot.dir/main.cpp.o: examples/SimplePlot/CMakeFiles/SimplePlot.dir/flags.make
-examples/SimplePlot/CMakeFiles/SimplePlot.dir/main.cpp.o: /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimplePlot/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/SimplePlot/CMakeFiles/SimplePlot.dir/main.cpp.o"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimplePlot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimplePlot.dir/main.cpp.o -c /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimplePlot/main.cpp
+examples/SimplePlot/CMakeFiles/SimplePlot.dir/main.cpp.o: /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimplePlot/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/SimplePlot/CMakeFiles/SimplePlot.dir/main.cpp.o"
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimplePlot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimplePlot.dir/main.cpp.o -c /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimplePlot/main.cpp
 
 examples/SimplePlot/CMakeFiles/SimplePlot.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimplePlot.dir/main.cpp.i"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimplePlot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimplePlot/main.cpp > CMakeFiles/SimplePlot.dir/main.cpp.i
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimplePlot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimplePlot/main.cpp > CMakeFiles/SimplePlot.dir/main.cpp.i
 
 examples/SimplePlot/CMakeFiles/SimplePlot.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimplePlot.dir/main.cpp.s"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimplePlot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimplePlot/main.cpp -o CMakeFiles/SimplePlot.dir/main.cpp.s
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimplePlot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimplePlot/main.cpp -o CMakeFiles/SimplePlot.dir/main.cpp.s
 
 # Object files for target SimplePlot
 SimplePlot_OBJECTS = \
@@ -99,8 +99,8 @@ examples/SimplePlot/SimplePlot: /usr/lib/x86_64-linux-gnu/libICE.so
 examples/SimplePlot/SimplePlot: /usr/lib/x86_64-linux-gnu/libX11.so
 examples/SimplePlot/SimplePlot: /usr/lib/x86_64-linux-gnu/libXext.so
 examples/SimplePlot/SimplePlot: examples/SimplePlot/CMakeFiles/SimplePlot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SimplePlot"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimplePlot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimplePlot.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SimplePlot"
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimplePlot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimplePlot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/SimplePlot/CMakeFiles/SimplePlot.dir/build: examples/SimplePlot/SimplePlot
@@ -108,10 +108,10 @@ examples/SimplePlot/CMakeFiles/SimplePlot.dir/build: examples/SimplePlot/SimpleP
 .PHONY : examples/SimplePlot/CMakeFiles/SimplePlot.dir/build
 
 examples/SimplePlot/CMakeFiles/SimplePlot.dir/clean:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimplePlot && $(CMAKE_COMMAND) -P CMakeFiles/SimplePlot.dir/cmake_clean.cmake
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimplePlot && $(CMAKE_COMMAND) -P CMakeFiles/SimplePlot.dir/cmake_clean.cmake
 .PHONY : examples/SimplePlot/CMakeFiles/SimplePlot.dir/clean
 
 examples/SimplePlot/CMakeFiles/SimplePlot.dir/depend:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimplePlot /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimplePlot /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimplePlot/CMakeFiles/SimplePlot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimplePlot /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimplePlot /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimplePlot/CMakeFiles/SimplePlot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/SimplePlot/CMakeFiles/SimplePlot.dir/depend
 

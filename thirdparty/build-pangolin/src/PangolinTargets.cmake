@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(pangolin SHARED IMPORTED)
 
 set_target_properties(pangolin PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/usr/include;/usr/include;/usr/include;/usr/include/eigen3;/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/include;/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/usr/include;/usr/include;/usr/include;/usr/include/eigen3;/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/include;/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/include"
   INTERFACE_LINK_LIBRARIES "rt;pthread;/usr/lib/x86_64-linux-gnu/libOpenGL.so;/usr/lib/x86_64-linux-gnu/libGLX.so;/usr/lib/x86_64-linux-gnu/libGLU.so;/usr/lib/x86_64-linux-gnu/libGLEW.so;/usr/lib/x86_64-linux-gnu/libEGL.so;/usr/lib/x86_64-linux-gnu/libSM.so;/usr/lib/x86_64-linux-gnu/libICE.so;/usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so;rt;pthread"
 )
 
 # Import target "pangolin" for configuration "Release"
 set_property(TARGET pangolin APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(pangolin PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/libpangolin.so"
+  IMPORTED_LOCATION_RELEASE "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/libpangolin.so"
   IMPORTED_SONAME_RELEASE "libpangolin.so"
   )
 

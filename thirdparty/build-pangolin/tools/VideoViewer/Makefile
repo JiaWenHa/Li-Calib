@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin
+CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin
+CMAKE_BINARY_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,7 +83,7 @@ install/local/fast: preinstall/fast
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CPackSourceConfig.cmake
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -127,7 +127,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoViewer/CMakeFiles/progress.marks
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles 0
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoViewer/CMakeFiles/progress.marks
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/clean
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/preinstall
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/preinstall
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/rule:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/rule
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/rule
 .PHONY : tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/rule
 
 # Convenience name for target.
@@ -190,12 +190,12 @@ register-mime-info-videoviewer: tools/VideoViewer/CMakeFiles/register-mime-info-
 
 # fast build rule for target.
 register-mime-info-videoviewer/fast:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/build.make tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/build
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/build.make tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer.dir/build
 .PHONY : register-mime-info-videoviewer/fast
 
 # Convenience name for target.
 tools/VideoViewer/CMakeFiles/VideoViewer.dir/rule:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/CMakeFiles/VideoViewer.dir/rule
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f CMakeFiles/Makefile2 tools/VideoViewer/CMakeFiles/VideoViewer.dir/rule
 .PHONY : tools/VideoViewer/CMakeFiles/VideoViewer.dir/rule
 
 # Convenience name for target.
@@ -205,7 +205,7 @@ VideoViewer: tools/VideoViewer/CMakeFiles/VideoViewer.dir/rule
 
 # fast build rule for target.
 VideoViewer/fast:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/VideoViewer.dir/build.make tools/VideoViewer/CMakeFiles/VideoViewer.dir/build
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/VideoViewer.dir/build.make tools/VideoViewer/CMakeFiles/VideoViewer.dir/build
 .PHONY : VideoViewer/fast
 
 main.o: main.cpp.o
@@ -214,7 +214,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/VideoViewer.dir/build.make tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.o
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/VideoViewer.dir/build.make tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -223,7 +223,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/VideoViewer.dir/build.make tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.i
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/VideoViewer.dir/build.make tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -232,7 +232,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/VideoViewer.dir/build.make tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.s
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(MAKE) -f tools/VideoViewer/CMakeFiles/VideoViewer.dir/build.make tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

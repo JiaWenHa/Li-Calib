@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin
+CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin
+CMAKE_BINARY_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin
 
 # Include any dependencies generated for this target.
 include examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/depend.make
@@ -58,17 +58,17 @@ include examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/progress.m
 include examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/flags.make
 
 examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/main.cpp.o: examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/flags.make
-examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/main.cpp.o: /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimpleDisplayImage/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/main.cpp.o"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleDisplayImage.dir/main.cpp.o -c /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimpleDisplayImage/main.cpp
+examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/main.cpp.o: /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimpleDisplayImage/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/main.cpp.o"
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleDisplayImage.dir/main.cpp.o -c /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimpleDisplayImage/main.cpp
 
 examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleDisplayImage.dir/main.cpp.i"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimpleDisplayImage/main.cpp > CMakeFiles/SimpleDisplayImage.dir/main.cpp.i
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimpleDisplayImage/main.cpp > CMakeFiles/SimpleDisplayImage.dir/main.cpp.i
 
 examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleDisplayImage.dir/main.cpp.s"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimpleDisplayImage/main.cpp -o CMakeFiles/SimpleDisplayImage.dir/main.cpp.s
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimpleDisplayImage/main.cpp -o CMakeFiles/SimpleDisplayImage.dir/main.cpp.s
 
 # Object files for target SimpleDisplayImage
 SimpleDisplayImage_OBJECTS = \
@@ -99,8 +99,8 @@ examples/SimpleDisplayImage/SimpleDisplayImage: /usr/lib/x86_64-linux-gnu/libICE
 examples/SimpleDisplayImage/SimpleDisplayImage: /usr/lib/x86_64-linux-gnu/libX11.so
 examples/SimpleDisplayImage/SimpleDisplayImage: /usr/lib/x86_64-linux-gnu/libXext.so
 examples/SimpleDisplayImage/SimpleDisplayImage: examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SimpleDisplayImage"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleDisplayImage.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SimpleDisplayImage"
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleDisplayImage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/build: examples/SimpleDisplayImage/SimpleDisplayImage
@@ -108,10 +108,10 @@ examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/build: examples/Si
 .PHONY : examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/build
 
 examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/clean:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && $(CMAKE_COMMAND) -P CMakeFiles/SimpleDisplayImage.dir/cmake_clean.cmake
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleDisplayImage && $(CMAKE_COMMAND) -P CMakeFiles/SimpleDisplayImage.dir/cmake_clean.cmake
 .PHONY : examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/clean
 
 examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/depend:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/examples/SimpleDisplayImage /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleDisplayImage /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/examples/SimpleDisplayImage /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleDisplayImage /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/depend
 

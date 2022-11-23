@@ -1,4 +1,4 @@
-# Install script for directory: /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/src
+# Install script for directory: /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/pangolin" TYPE FILE FILES "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/include/pangolin/config.h")
+file(INSTALL DESTINATION "/usr/local/include/pangolin" TYPE FILE FILES "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/include/pangolin/config.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include" TYPE DIRECTORY FILES "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/src/../include/pangolin")
+file(INSTALL DESTINATION "/usr/local/include" TYPE DIRECTORY FILES "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/src/../include/pangolin")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -76,7 +76,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/libpangolin.so")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/libpangolin.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libpangolin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libpangolin.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -90,8 +90,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Pangolin" TYPE FILE FILES
-    "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/CMakeFiles/PangolinConfig.cmake"
-    "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/PangolinConfigVersion.cmake"
+    "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/CMakeFiles/PangolinConfig.cmake"
+    "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/PangolinConfigVersion.cmake"
     )
 endif()
 
@@ -99,7 +99,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Pangolin/PangolinTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Pangolin/PangolinTargets.cmake"
-         "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/CMakeFiles/Export/lib/cmake/Pangolin/PangolinTargets.cmake")
+         "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/CMakeFiles/Export/lib/cmake/Pangolin/PangolinTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Pangolin/PangolinTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -108,15 +108,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Pangolin" TYPE FILE FILES "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/CMakeFiles/Export/lib/cmake/Pangolin/PangolinTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Pangolin" TYPE FILE FILES "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/CMakeFiles/Export/lib/cmake/Pangolin/PangolinTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Pangolin" TYPE FILE FILES "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/CMakeFiles/Export/lib/cmake/Pangolin/PangolinTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Pangolin" TYPE FILE FILES "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/CMakeFiles/Export/lib/cmake/Pangolin/PangolinTargets-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/external/pybind11/cmake_install.cmake")
+  include("/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/external/pybind11/cmake_install.cmake")
 
 endif()
 

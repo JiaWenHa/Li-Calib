@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin
+CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin
+CMAKE_BINARY_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin
 
 # Include any dependencies generated for this target.
 include tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/depend.make
@@ -58,17 +58,17 @@ include tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/progress.make
 include tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/flags.make
 
 tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/main-print.cpp.o: tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/flags.make
-tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/main-print.cpp.o: /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoJson/main-print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/main-print.cpp.o"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoJson && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VideoJsonPrint.dir/main-print.cpp.o -c /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoJson/main-print.cpp
+tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/main-print.cpp.o: /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoJson/main-print.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/main-print.cpp.o"
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoJson && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VideoJsonPrint.dir/main-print.cpp.o -c /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoJson/main-print.cpp
 
 tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/main-print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/VideoJsonPrint.dir/main-print.cpp.i"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoJson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoJson/main-print.cpp > CMakeFiles/VideoJsonPrint.dir/main-print.cpp.i
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoJson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoJson/main-print.cpp > CMakeFiles/VideoJsonPrint.dir/main-print.cpp.i
 
 tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/main-print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VideoJsonPrint.dir/main-print.cpp.s"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoJson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoJson/main-print.cpp -o CMakeFiles/VideoJsonPrint.dir/main-print.cpp.s
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoJson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoJson/main-print.cpp -o CMakeFiles/VideoJsonPrint.dir/main-print.cpp.s
 
 # Object files for target VideoJsonPrint
 VideoJsonPrint_OBJECTS = \
@@ -99,8 +99,8 @@ tools/VideoJson/VideoJsonPrint: /usr/lib/x86_64-linux-gnu/libICE.so
 tools/VideoJson/VideoJsonPrint: /usr/lib/x86_64-linux-gnu/libX11.so
 tools/VideoJson/VideoJsonPrint: /usr/lib/x86_64-linux-gnu/libXext.so
 tools/VideoJson/VideoJsonPrint: tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable VideoJsonPrint"
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoJson && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VideoJsonPrint.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable VideoJsonPrint"
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoJson && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VideoJsonPrint.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/build: tools/VideoJson/VideoJsonPrint
@@ -108,10 +108,10 @@ tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/build: tools/VideoJson/VideoJsonPr
 .PHONY : tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/build
 
 tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/clean:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoJson && $(CMAKE_COMMAND) -P CMakeFiles/VideoJsonPrint.dir/cmake_clean.cmake
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoJson && $(CMAKE_COMMAND) -P CMakeFiles/VideoJsonPrint.dir/cmake_clean.cmake
 .PHONY : tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/clean
 
 tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/depend:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/VideoJson /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoJson /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/VideoJson /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoJson /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/depend
 

@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/tools/ModelViewer/main.cpp" "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/tools/ModelViewer/CMakeFiles/ModelViewer.dir/main.cpp.o"
+  "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/tools/ModelViewer/main.cpp" "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/tools/ModelViewer/CMakeFiles/ModelViewer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin/include"
+  "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin/include"
   "src/include"
   "/usr/include/eigen3"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/src/CMakeFiles/pangolin.dir/DependInfo.cmake"
+  "/home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/src/CMakeFiles/pangolin.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

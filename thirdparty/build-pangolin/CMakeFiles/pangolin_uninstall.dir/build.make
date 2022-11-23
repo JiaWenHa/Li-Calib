@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin
+CMAKE_SOURCE_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin
+CMAKE_BINARY_DIR = /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin
 
 # Utility rule file for pangolin_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/buil
 include CMakeFiles/pangolin_uninstall.dir/progress.make
 
 CMakeFiles/pangolin_uninstall:
-	/usr/bin/cmake -P /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/cmake_uninstall.cmake
 
 pangolin_uninstall: CMakeFiles/pangolin_uninstall
 pangolin_uninstall: CMakeFiles/pangolin_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/pangolin_uninstall.dir/clean:
 .PHONY : CMakeFiles/pangolin_uninstall.dir/clean
 
 CMakeFiles/pangolin_uninstall.dir/depend:
-	cd /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/Pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin /home/ros/catkin_li_calib/src/lidar_IMU_calib/thirdparty/build-pangolin/CMakeFiles/pangolin_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/Pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin /home/ros/catkin_li_calib_git/src/Li-Calib/thirdparty/build-pangolin/CMakeFiles/pangolin_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pangolin_uninstall.dir/depend
 

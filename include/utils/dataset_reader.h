@@ -98,7 +98,8 @@ public:
     }
   }
 
-  bool read(const std::string path,
+//此处被修改
+  void read(const std::string path,
             const std::string imu_topic,
             const std::string lidar_topic,
             const double bag_start = -1.0,
@@ -168,7 +169,7 @@ public:
     std::cout << imu_topic << ": " << data_->imu_data_.size() << std::endl;
 
     // 此处进行了修改
-    return true;
+    // return true;
   }
 
 

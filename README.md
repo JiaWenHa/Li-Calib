@@ -175,3 +175,97 @@ Jiajun Lv, Jinhong Xu, Kewei Hu, Yong Liu, Xingxing Zuo. Targetless Calibration 
 ## License
 
 The code is provided under the [GNU General Public License v3 (GPL-3)](https://www.gnu.org/licenses/gpl-3.0.txt).
+
+## 相比原代码的修改
+
+1.src/ndt_omp CMakeLists.txt
+
+```cmake
+ -std=c++14
+ PCL 1.10
+```
+
+2.src/lidar_IMU_calib/include/utils/dataset_reader.h
+
+```c++
+ bool read(const std::string pat...)  ->void read(const std::string pat...)
+```
+
+3.src/lidar_IMU_calib/thirdparty/Kontiki/include/kontiki/sensors/constant_bias_imu.h
+
+```c++
+ bool LockGyroscopeBias(bool lock) ->void LockGyroscopeBias(bool lock)
+ bool LockAccelerometerBias(bool lock) -> void LockAccelerometerBias(bool lock)
+```
+
+## 本算法的使用方法
+
+### 1. 数据录制
+
+鉴于是基于NDT匹配算法的里程计计算， 数据录制需要注意：
+
+1. 需要在平面多的房间里录制；
+
+2. xyz轴方向都需要移动
+
+3. 不要旋转过/移动过猛
+
+```shell
+rosbag -record -o out /velodyne_packets /你的IMU数据话题
+查看数据：
+rosrun nodelet nodelet standalone velodyne_pointcloud/CloudNodelet _calibration:="/home/XXX（your username）/catkin_velodyne（your velodyne catkin工作环境）/src/velodyne/velodyne_pointcloud/params/VLP16db.yaml"
+然后播放bag包 rosbag play yourbagname.bag
+在rviz中查看即可rosrun rviz rviz
+```
+
+### 2. 适配launch
+
+修改licalib_gui.launch文件
+
+注意此处的velodyne数据为velodyne_packets
+
+```xml
+<?xml version="1.0"?>
+<launch>
+    <arg name="topic_imu"           default="/你的imu数据话题" />
+    <arg name="path_bag"            default="/home/$(env USER)/bag包位置" />
+    <arg name="bag_start"           default="0" />
+    <arg name="bag_durr"            default="48" />
+    <arg name="scan4map"            default="15" />
+    <arg name="lidar_model"         default="VLP_16" />
+    <arg name="ndtResolution"       default="0.5" /> <!-- 0.5 for indoor case and 1.0 for outdoor case -->
+
+    <arg name="time_offset_padding" default="0.015" />
+    <arg name="show_ui"    default="true" />
+
+    <node pkg="li_calib" type="li_calib_gui" name="li_calib_gui" output="screen">
+    <!-- <node pkg="li_calib" type="li_calib_gui" name="li_calib_gui" output="screen" clear_params="true" launch-prefix="gdb -ex run &#45;&#45;args">-->
+
+        <param name="topic_imu"         type="string"   value="$(arg topic_imu)" />
+        <param name="topic_lidar"       type="string"   value="/velodyne_packets" />
+        <param name="LidarModel"        type="string"   value="$(arg lidar_model)" />
+        <param name="path_bag"          type="string"   value="$(arg path_bag)" />
+        <param name="bag_start"         type="double"   value="$(arg bag_start)" />
+        <param name="bag_durr"          type="double"   value="$(arg bag_durr)" /> <!-- for data association -->
+        <param name="scan4map"          type="double"   value="$(arg scan4map)" />
+        <param name="ndtResolution"     type="double"   value="$(arg ndtResolution)" />
+
+        <param name="time_offset_padding"   type="double"   value="$(arg time_offset_padding)" />
+        <param name="show_ui"               type="bool"     value="$(arg show_ui)" /><!-- 我们用ui界面来进行操作 -->
+    </node>
+
+</launch>
+
+```
+
+###3. 运行及相关问题
+
+**运行：**
+
+在UI界面依顺序点击：初始化(Initialization)->初始化(Initialization)...直到初始化成功（判定标准看问题1.）->数据关联(Data Association)->初始化优化（Batch  Optimization）->迭代优化（Refinement）->迭代优化（Refinement）...直至数据不再变换
+
+####3.1 数据跑飞问题
+
+如果你录取的数据，不是在平面多的房间里或者旋转过大，极有可能出现数据跑飞的问题，表现就是XYZ偏差超出正常值，这时候需要重录数据。
+
+## 

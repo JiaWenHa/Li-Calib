@@ -84,7 +84,8 @@ class ConstantBiasImuEntity : public BasicImuEntity<ViewTemplate, MetaType, Stor
     return gyro_bias_locked_;
   }
 
-  bool LockGyroscopeBias(bool lock) {
+//此处被修改
+  void LockGyroscopeBias(bool lock) {
     gyro_bias_locked_ = lock;
   }
 
@@ -92,7 +93,8 @@ class ConstantBiasImuEntity : public BasicImuEntity<ViewTemplate, MetaType, Stor
     return acc_bias_locked_;
   }
 
-  bool LockAccelerometerBias(bool lock) {
+// 此处被修改
+  void LockAccelerometerBias(bool lock) {
     acc_bias_locked_ = lock;
   }
 
